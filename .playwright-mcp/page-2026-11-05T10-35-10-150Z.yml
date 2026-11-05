@@ -1,0 +1,72 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - heading "A little princess is turning ONE derful" [level=1] [ref=f1e32]:
+        - generic [ref=f1e33]: A little princess is turning
+        - generic [ref=f1e34]: ONE
+        - generic [ref=f1e35]: derful
+      - img "Amaris in a blue ball gown, hands clasped, laughing" [ref=f1e45]
+      - generic [ref=f1e46]:
+        - paragraph [ref=f1e47]: Join us to celebrate
+        - paragraph [ref=f1e48]: Amaris
+        - paragraph [ref=f1e49]: Keziah D. Benedicto’s 1st Birthday
+        - paragraph [ref=f1e50]: Sunday, Nov 22, 2026 · 6:00 PM
+        - paragraph [ref=f1e51]: Jollibee Potrero, MacArthur Highway, Malabon
+        - generic [ref=f1e53]:
+          - paragraph [ref=f1e54]: RSVP opens soon
+          - paragraph [ref=f1e55]: The RSVP form is on its way. Check back soon.
+        - paragraph [ref=f1e56]:
+          - link "Directions" [ref=f1e57] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Jollibee+Potrero+MacArthur+Highway+Malabon
+          - link "Add to calendar" [ref=f1e58] [cursor=pointer]:
+            - /url: /amaris-1st-birthday.ics
+          - generic [ref=f1e59]: 17 days to go
+    - region [ref=f1e61]:
+      - generic [ref=f1e62]:
+        - heading "The Portrait Hall" [level=2] [ref=f1e66]
+        - paragraph [ref=f1e67]: A year of royal moments, from the giggles to the tantrums. Tap a portrait to see it up close.
+      - list [ref=f1e68]:
+        - listitem [ref=f1e69]:
+          - button "View “The Royal Giggle” full size" [ref=f1e70]:
+            - img "Amaris in a blue ball gown, hands clasped, laughing" [ref=f1e73]
+          - paragraph [ref=f1e77]: The Royal Giggle
+        - listitem [ref=f1e78]:
+          - button "View “The Royal Tantrum” full size" [ref=f1e79]:
+            - img "Amaris in a lilac tulle dress, eyes squeezed shut mid-cry" [ref=f1e82]
+          - paragraph [ref=f1e86]: The Royal Tantrum
+        - listitem [ref=f1e87]:
+          - button "View “Pretty in Pink” full size" [ref=f1e88]:
+            - img "Amaris smiling in a ruffled pink gown in front of a golden castle backdrop" [ref=f1e91]
+          - paragraph [ref=f1e93]: Pretty in Pink
+        - listitem [ref=f1e94]:
+          - button "View “Ready for the Ball” full size" [ref=f1e95]:
+            - img "Amaris on her tummy in a cloud of blue tulle, smiling up" [ref=f1e98]
+          - paragraph [ref=f1e100]: Ready for the Ball
+    - region [ref=f1e101]:
+      - generic [ref=f1e102]:
+        - heading "You’re invited to the ball" [level=2] [ref=f1e103]
+        - generic [ref=f1e104]:
+          - paragraph [ref=f1e105]:
+            - generic [ref=f1e106]: "17"
+            - generic [ref=f1e107]: days until the ball
+          - generic [ref=f1e111]:
+            - generic [ref=f1e116]:
+              - term [ref=f1e117]: When
+              - definition [ref=f1e118]: Sunday, November 22, 20266:00 PM
+            - generic [ref=f1e123]:
+              - term [ref=f1e124]: Where
+              - definition [ref=f1e125]: Jollibee PotreroMacArthur Highway, Malabon
+          - generic [ref=f1e126]:
+            - link "Open in Maps" [ref=f1e127] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=Jollibee+Potrero+MacArthur+Highway+Malabon
+            - generic [ref=f1e131]:
+              - link "Calendar" [ref=f1e132] [cursor=pointer]:
+                - /url: /amaris-1st-birthday.ics
+              - link "Google" [ref=f1e136] [cursor=pointer]:
+                - /url: https://calendar.google.com/calendar/render?action=TEMPLATE&text=Amaris%E2%80%99s%201st%20Birthday&dates=20261122T100000Z/20261122T130000Z&details=Amaris%20Keziah%20D.%20Benedicto%E2%80%99s%201st%20birthday.%20A%20little%20princess%20is%20turning%20ONE-derful!&location=Jollibee%20Potrero%2C%20MacArthur%20Highway%2C%20Malabon&ctz=Asia/Manila
+          - generic [ref=f1e138]:
+            - paragraph [ref=f1e139]: RSVP opens soon
+            - paragraph [ref=f1e140]: The RSVP form is on its way. Check back soon.
+        - paragraph [ref=f1e141]: We would be delighted to celebrate this special day with you!
+        - paragraph [ref=f1e142]: ONEderful
+  - alert [ref=f1e143]

@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T10:53:11+00:00",
+  "title": "Design System: Amaris is turning ONE-derful",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Ballroom Navy",
+        "canonical": "#1f3b73",
+        "tonalRamp": [
+          "#060b16",
+          "#19253b",
+          "#2f4264",
+          "#476191",
+          "#6182bf",
+          "#8aa5d9",
+          "#b4caf3",
+          "#e7effe"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Cornflower Blue",
+        "canonical": "#2f5fb3",
+        "tonalRamp": [
+          "#040b1a",
+          "#122443",
+          "#254172",
+          "#385fa3",
+          "#4f80d6",
+          "#7ba5ed",
+          "#accafe",
+          "#e6effe"
+        ]
+      },
+      "sky": {
+        "role": "tertiary",
+        "displayName": "Crystal Sky",
+        "canonical": "#a9c7ee",
+        "tonalRamp": [
+          "#070b12",
+          "#1c2633",
+          "#334357",
+          "#4d637f",
+          "#6984a8",
+          "#90a7c5",
+          "#b9cbe3",
+          "#e5f0fe"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Gold Leaf",
+        "canonical": "#c9973f",
+        "tonalRamp": [
+          "#120900",
+          "#332102",
+          "#573c05",
+          "#7f590b",
+          "#a8781a",
+          "#c69e5d",
+          "#e3c494",
+          "#feeccf"
+        ]
+      },
+      "gold-light": {
+        "role": "secondary",
+        "displayName": "Gilt Highlight",
+        "canonical": "#e9c97f",
+        "tonalRamp": [
+          "#100a02",
+          "#2e2309",
+          "#504015",
+          "#755e23",
+          "#9c7e35",
+          "#bba26a",
+          "#dac79d",
+          "#fbedd0"
+        ]
+      },
+      "gold-text": {
+        "role": "secondary",
+        "displayName": "Gold Lettering",
+        "canonical": "#ad7f2c",
+        "tonalRamp": [
+          "#120901",
+          "#322204",
+          "#563d0d",
+          "#7e5a17",
+          "#a67926",
+          "#c49e62",
+          "#e2c497",
+          "#ffeccf"
+        ]
+      },
+      "gold-deep": {
+        "role": "secondary",
+        "displayName": "Antique Gold",
+        "canonical": "#8a6220",
+        "tonalRamp": [
+          "#110a02",
+          "#31220b",
+          "#543d1a",
+          "#7b5b29",
+          "#a37a3c",
+          "#c19f6e",
+          "#dfc59f",
+          "#feecd2"
+        ]
+      },
+      "brass": {
+        "role": "neutral",
+        "displayName": "Brass Plate",
+        "canonical": "#f6ecd6",
+        "tonalRamp": [
+          "#0d0b08",
+          "#28251e",
+          "#474136",
+          "#686151",
+          "#8a816e",
+          "#aca494",
+          "#cec9bc",
+          "#f2eee5"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Palace Cream",
+        "canonical": "#fbf6ec",
+        "tonalRamp": [
+          "#0e0b05",
+          "#28251d",
+          "#45423a",
+          "#656158",
+          "#868279",
+          "#a9a49b",
+          "#cdc9bf",
+          "#f3eee4"
+        ]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Ivory Card",
+        "canonical": "#fffdf7",
+        "tonalRamp": [
+          "#0c0b07",
+          "#262521",
+          "#43423d",
+          "#63615c",
+          "#84827d",
+          "#a7a59f",
+          "#cbc9c3",
+          "#f0eee8"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Morning Mist",
+        "canonical": "#e6eef9",
+        "tonalRamp": [
+          "#070b12",
+          "#20262d",
+          "#3c434b",
+          "#5b626b",
+          "#7c838d",
+          "#9ea6b0",
+          "#c2cad4",
+          "#e7effa"
+        ]
+      },
+      "wall": {
+        "role": "neutral",
+        "displayName": "Palace Wall",
+        "canonical": "#d4e2f5",
+        "tonalRamp": [
+          "#090b0e",
+          "#21252c",
+          "#3b434c",
+          "#58626f",
+          "#778394",
+          "#9ba6b4",
+          "#c2cad5",
+          "#e9eff7"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The gold ONE of the wordmark only."
+      },
+      "script-display": {
+        "displayName": "Script Display",
+        "purpose": "derful under ONE."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The name Amaris and section titles, in blue script."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Countdown number, tabular."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Date and time line on the plaque."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Every sentence; italic for the invitation's voice."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "When/Where labels and portrait plaque captions."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Pill labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hanging-frame",
+        "value": "drop-shadow(0 12px 14px rgb(31 59 115 / 0.22))",
+        "purpose": "Every gilt frame (filter on the SVG)."
+      },
+      {
+        "name": "plaque-hero",
+        "value": "0 14px 30px -10px rgb(31 59 115 / 0.28)",
+        "purpose": "The invitation plaque."
+      },
+      {
+        "name": "card-ball",
+        "value": "0 24px 50px -18px rgb(31 59 115 / 0.35)",
+        "purpose": "The ball details card; deepest lift."
+      },
+      {
+        "name": "plaque-small",
+        "value": "0 6px 14px -6px rgb(31 59 115 / 0.3)",
+        "purpose": "Portrait caption plaques."
+      },
+      {
+        "name": "pill-ring",
+        "value": "0 0 0 2px var(--cream), 0 0 0 3px var(--gold), 0 10px 20px -8px rgb(31 59 115 / 0.45)",
+        "purpose": "RSVP pill: cream then gold ring plus navy lift."
+      },
+      {
+        "name": "crown",
+        "value": "drop-shadow(0 2px 2px rgb(138 98 32 / 0.35))",
+        "purpose": "Gold-tinted shadow under the crown finial."
+      }
+    ],
+    "motion": [
+      {
+        "name": "glint",
+        "value": "1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.15s, once",
+        "purpose": "Soft-light glint across a gilt frame when 45% in view."
+      },
+      {
+        "name": "twinkle",
+        "value": "4.8s ease-in-out infinite, staggered delays",
+        "purpose": "Chandelier crystals fade sky to near-white (#f4f8ff)."
+      },
+      {
+        "name": "sparkle",
+        "value": "3.6s ease-in-out infinite, opacity 0.25 to 1",
+        "purpose": "Four-point gold sparkles breathing."
+      },
+      {
+        "name": "portrait-hover",
+        "value": "transform 700ms ease-out, scale 1.03",
+        "purpose": "Tappable portrait photo inside its frame."
+      },
+      {
+        "name": "state-color",
+        "value": "200ms",
+        "purpose": "Pill and link colour changes."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Glint, twinkle and sparkle are removed entirely."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      }
+    ],
+    "giltMaterial": {
+      "leafGradient": [
+        "#f6e2a8",
+        "#c9973f",
+        "#f2d896",
+        "#a87a2a",
+        "#e3bf73"
+      ],
+      "coveGradient": [
+        "#b8862f",
+        "#edd08a",
+        "#9a6e24"
+      ],
+      "bead": "#7a5418",
+      "highlight": "#fff3cf",
+      "pearl": "#fff6dc",
+      "fillet": "#fbf6ec",
+      "heartJewel": "#5b8ad6",
+      "candleFlame": "#ffe9b0",
+      "purpose": "Fixed material stops for the SVG gilt frame, cartouche, crown and chandelier; not palette tokens."
+    },
+    "lightboxBackdrop": {
+      "value": "rgb(22 41 86)",
+      "purpose": "The only night surface: full-size portrait view."
+    }
+  },
+  "components": [
+    {
+      "name": "RSVP Pill",
+      "kind": "button",
+      "refersTo": "button-rsvp",
+      "description": "The one primary action: navy pill ringed cream then gold.",
+      "html": "<a class=\"ds-btn-rsvp\" href=\"#\">RSVP to the Ball</a>",
+      "css": ":host{--cream:#fbf6ec;--ivory:#fffdf7;--mist:#e6eef9;--wall:#d4e2f5;--sky:#a9c7ee;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e9c97f;--gold-text:#ad7f2c;--brass:#f6ecd6;--gold-deep:#8a6220} .ds-btn-rsvp{display:flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;border-radius:9999px;background:var(--navy);color:#fff;font-family:Cinzel,Georgia,serif;font-weight:700;font-size:0.95rem;letter-spacing:0.14em;text-decoration:none;box-shadow:0 0 0 2px var(--cream), 0 0 0 3px var(--gold), 0 10px 20px -8px rgb(31 59 115 / 0.45);transition:background-color .2s} .ds-btn-rsvp:hover{background:var(--blue)} .ds-btn-rsvp:active{transform:translateY(1px)} .ds-btn-rsvp:focus-visible{outline:2px solid var(--blue);outline-offset:3px}"
+    },
+    {
+      "name": "RSVP Pending",
+      "kind": "button",
+      "refersTo": "button-rsvp-pending",
+      "description": "Shown until the RSVP form link exists; never a dead link.",
+      "html": "<p class=\"ds-btn-pending\" aria-disabled=\"true\">RSVP opens soon</p>",
+      "css": ":host{--cream:#fbf6ec;--ivory:#fffdf7;--mist:#e6eef9;--wall:#d4e2f5;--sky:#a9c7ee;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e9c97f;--gold-text:#ad7f2c;--brass:#f6ecd6;--gold-deep:#8a6220} .ds-btn-pending{display:flex;align-items:center;justify-content:center;min-height:52px;margin:0;padding:0 24px;border-radius:9999px;background:var(--mist);color:var(--navy);font-family:Cinzel,Georgia,serif;font-weight:700;font-size:0.95rem;letter-spacing:0.14em;cursor:not-allowed;box-shadow:0 0 0 2px var(--cream), 0 0 0 3px var(--gold), 0 10px 20px -8px rgb(31 59 115 / 0.45)}"
+    },
+    {
+      "name": "Ghost Pill",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary actions (Maps, calendar) with a line icon.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z\"/><circle cx=\"12\" cy=\"9.5\" r=\"2.5\"/></svg> Open in Maps</a>",
+      "css": ":host{--cream:#fbf6ec;--ivory:#fffdf7;--mist:#e6eef9;--wall:#d4e2f5;--sky:#a9c7ee;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e9c97f;--gold-text:#ad7f2c;--brass:#f6ecd6;--gold-deep:#8a6220} .ds-btn-ghost{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border:1px solid var(--gold);border-radius:9999px;background:var(--ivory);color:var(--navy);font-family:Cinzel,Georgia,serif;font-weight:700;font-size:0.85rem;letter-spacing:0.1em;text-decoration:none;transition:background-color .15s,border-color .15s} .ds-btn-ghost:hover{border-color:var(--blue);background:#fff} .ds-btn-ghost:focus-visible{outline:2px solid var(--blue);outline-offset:3px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Garamond link with a gold underline, 44px tap height.",
+      "html": "<a class=\"ds-link\" href=\"#\">Directions</a>",
+      "css": ":host{--cream:#fbf6ec;--ivory:#fffdf7;--mist:#e6eef9;--wall:#d4e2f5;--sky:#a9c7ee;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e9c97f;--gold-text:#ad7f2c;--brass:#f6ecd6;--gold-deep:#8a6220} .ds-link{display:inline-flex;align-items:center;min-height:44px;font-family:'EB Garamond',Georgia,serif;font-size:1.0625rem;color:var(--blue);text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:0.28em;transition:color .15s,text-decoration-color .15s} .ds-link:hover{color:var(--navy);text-decoration-color:var(--blue)} .ds-link:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:4px}"
+    },
+    {
+      "name": "Caption Plaque",
+      "kind": "chip",
+      "refersTo": "plaque-title",
+      "description": "Brass plaque with double gold rule under each portrait.",
+      "html": "<p class=\"ds-plaque\"><span class=\"ds-plaque-rule\"></span>The Royal Giggle</p>",
+      "css": ":host{--cream:#fbf6ec;--ivory:#fffdf7;--mist:#e6eef9;--wall:#d4e2f5;--sky:#a9c7ee;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e9c97f;--gold-text:#ad7f2c;--brass:#f6ecd6;--gold-deep:#8a6220} .ds-plaque{position:relative;display:inline-block;white-space:nowrap;margin:0;padding:10px 20px;border:1.5px solid var(--gold);border-radius:6px;background:var(--brass);color:var(--navy);font-family:Cinzel,Georgia,serif;font-weight:700;font-size:0.82rem;letter-spacing:0.12em;box-shadow:0 6px 14px -6px rgb(31 59 115/0.3)} .ds-plaque-rule{position:absolute;inset:3px;border:1px solid rgb(201 151 63/0.55);border-radius:3px;pointer-events:none}"
+    },
+    {
+      "name": "Invitation Plaque",
+      "kind": "card",
+      "refersTo": "plaque-hero",
+      "description": "The hero plaque that carries the invitation under the arched portrait.",
+      "html": "<div class=\"ds-hero-plaque\"><span class=\"ds-hero-rule\"></span><p class=\"ds-i\">Join us to celebrate</p><p class=\"ds-name\">Amaris</p><p class=\"ds-date\">Sunday, Nov 22, 2026 · 6:00 PM</p><p class=\"ds-body\">Jollibee Potrero, MacArthur Hwy, Malabon</p></div>",
+      "css": ":host{--cream:#fbf6ec;--ivory:#fffdf7;--mist:#e6eef9;--wall:#d4e2f5;--sky:#a9c7ee;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e9c97f;--gold-text:#ad7f2c;--brass:#f6ecd6;--gold-deep:#8a6220} .ds-hero-plaque{position:relative;max-width:320px;padding:32px 20px 12px;border:1.5px solid var(--gold);border-radius:12px;background:var(--brass);color:var(--navy);text-align:center;font-family:'EB Garamond',Georgia,serif;box-shadow:0 14px 30px -10px rgb(31 59 115/0.28)} .ds-hero-plaque p{margin:0} .ds-hero-rule{position:absolute;inset:5px;border:1px solid rgb(201 151 63/0.45);border-radius:8px;pointer-events:none} .ds-i{font-style:italic;font-size:1.125rem} .ds-name{font-family:'Great Vibes',cursive;font-size:2.75rem;line-height:1;color:var(--blue)} .ds-date{margin-top:8px!important;font-family:Cinzel,Georgia,serif;font-weight:700;font-size:0.95rem;letter-spacing:0.05em} .ds-body{font-size:1rem}"
+    },
+    {
+      "name": "Ball Card",
+      "kind": "card",
+      "refersTo": "card-ball",
+      "description": "Ivory details card with countdown, heart rule and When/Where list.",
+      "html": "<div class=\"ds-card\"><p class=\"ds-fig\">17</p><p class=\"ds-cap\">days until the ball</p><dl><dt>When</dt><dd>Sunday, November 22, 2026</dd></dl></div>",
+      "css": ":host{--cream:#fbf6ec;--ivory:#fffdf7;--mist:#e6eef9;--wall:#d4e2f5;--sky:#a9c7ee;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e9c97f;--gold-text:#ad7f2c;--brass:#f6ecd6;--gold-deep:#8a6220} .ds-card{padding:32px 24px;border:1.5px solid var(--gold);border-radius:16px;background:var(--ivory);color:var(--navy);text-align:center;font-family:'EB Garamond',Georgia,serif;box-shadow:0 24px 50px -18px rgb(31 59 115/0.35)} .ds-card p{margin:0} .ds-fig{font-family:Cinzel,Georgia,serif;font-weight:700;font-size:4rem;line-height:1;font-variant-numeric:tabular-nums} .ds-cap{margin-top:8px!important;font-style:italic;font-size:1.125rem} .ds-card dl{margin:28px 0 0;text-align:left} .ds-card dt{font-family:Cinzel,Georgia,serif;font-weight:700;font-size:0.8rem;letter-spacing:0.14em;color:var(--gold-deep)} .ds-card dd{margin:0;font-size:1.125rem}"
+    },
+    {
+      "name": "Wordmark",
+      "kind": "custom",
+      "description": "Gold ONE with blue derful script, the event's wordmark.",
+      "html": "<p class=\"ds-mark\"><span class=\"ds-one\">ONE</span><span class=\"ds-derful\">derful</span></p>",
+      "css": ":host{--cream:#fbf6ec;--ivory:#fffdf7;--mist:#e6eef9;--wall:#d4e2f5;--sky:#a9c7ee;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e9c97f;--gold-text:#ad7f2c;--brass:#f6ecd6;--gold-deep:#8a6220} .ds-mark{display:flex;flex-direction:column;align-items:center;margin:0} .ds-one{font-family:Cinzel,Georgia,serif;font-weight:700;font-size:5rem;line-height:0.9;color:var(--gold-text)} .ds-derful{margin-top:-8px;font-family:'Great Vibes',cursive;font-size:3.6rem;line-height:0.85;color:var(--blue)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Palace Portrait Hall",
+    "overview": "Guests walk into a ballroom in Cinderella light. A crystal chandelier hangs from the top edge of the screen, the wall glows mist-blue and fades to cream as you go down, and the princess's portraits hang in carved gilt frames. Each frame has a brass plaque, and the invitation itself is written on the first plaque. Everything here comes from the printed invitation (`public/photos/invitation.jpg`): sky and cornflower blue, gold leaf, cream paper, the heart jewel, the tiara, and the gold \"ONE\" with \"derful\" in blue script below it.\n\nThe page is a single centred column, built mobile-first and kept narrow on desktop. Depth comes from the objects: gilt moulding drawn as SVG, plaques with a double gold rule, and soft navy-tinted shadows. Interface chrome stays out of the way. Motion is quiet and comes from the room. Crystals twinkle, sparkles breathe, and a light glint crosses each frame once when it enters view. All three stop under reduced motion.\n\nThe world is light only. The one dark surface is the night-navy lightbox, where a portrait is shown full size.",
+    "keyCharacteristics": [
+      "Gilt frames as the signature object: arch, rectangle and oval, each with a cartouche and heart jewel",
+      "Brass plaques with an inner hairline gold rule carry every caption and the invitation",
+      "Three type voices: Cinzel capitals, Great Vibes script, EB Garamond text",
+      "Navy ink on cream, brass and ivory; gold used as material, not as small text",
+      "Soft navy-tinted shadows only; cream-then-gold rings around pills",
+      "Hand-drawn SVG ornaments (chandelier, crown, sparkle, heart rule, line icons)"
+    ],
+    "rules": [
+      {
+        "name": "The Gold-Is-Metal Rule",
+        "body": "Gold Leaf draws borders, rules, ornaments and rings, never text. Gold text uses Gold Lettering at display sizes and Antique Gold below 1.5rem.",
+        "section": "colors"
+      },
+      {
+        "name": "The Navy Ink Rule",
+        "body": "All text is navy, blue, or one of the two text golds. Never black or gray.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light Palace Rule",
+        "body": "The world has no dark mode. The only dark surface is the lightbox's night-navy backdrop (rgb 22 41 86).",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Voices Rule",
+        "body": "Cinzel announces (wordmark, date, labels, buttons, plaques). Great Vibes names (Amaris, derful, section titles). EB Garamond speaks (every sentence). Don't swap their roles.",
+        "section": "typography"
+      },
+      {
+        "name": "The Script Is Large Rule",
+        "body": "Great Vibes is always blue and never set below 1.9rem. At small sizes the script turns illegible.",
+        "section": "typography"
+      },
+      {
+        "name": "The Invitation Line Rule",
+        "body": "The tracked small-caps line above ONE (\"A little princess is turning\", Cinzel 500, 0.8rem, 0.22em) is part of the wordmark and is printed copy. It is not a reusable kicker. Don't add tracked lines above other headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Single Column Rule",
+        "body": "Desktop does not get a grid. The hall is a corridor, and the column stays narrow at any width.",
+        "section": "layout"
+      },
+      {
+        "name": "The Navy Air Rule",
+        "body": "Shadows are always tinted navy (or gold under gold), soft, and pulled in with negative spread. Never gray, never black, never a hard offset.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Arch and Pill Rule",
+        "body": "Objects are arched, oval or softly cornered, and every action is a pill. Nothing has a sharp square corner except the photo inside a rectangular frame.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** put every new photo of Amaris in a Gilt Frame, choosing arch, rectangle or oval to suit the crop. Captions go on a brass plaque below or beside the frame.",
+      "**Do** set sentences in EB Garamond navy, and use italic for the invitation's own voice.",
+      "**Do** keep one filled navy pill per view for the primary action. Secondary actions are ivory ghost pills.",
+      "**Do** tint every shadow navy with negative spread, as in the Shadow Vocabulary.",
+      "**Do** draw ornaments and icons as inline SVG in the palette, and stop all ambient motion under reduced motion.",
+      "**Do** separate sections with the heart rule or a half-strength gold hairline."
+    ],
+    "donts": [
+      "**Don't** set small text in Gold Leaf. Use Antique Gold.",
+      "**Don't** add a dark theme or dark sections. The only night surface is the lightbox.",
+      "**Don't** set Great Vibes below 1.9rem, or in any colour except blue.",
+      "**Don't** add tracked small-caps kicker lines above headings. The one above ONE is the invitation's printed copy.",
+      "**Don't** use gray or black shadows or hard offset shadows.",
+      "**Don't** use Disney characters, logos or film imagery. Use generic fairytale motifs only (castle, carriage, slipper, tiara, roses, bows, hearts).",
+      "**Don't** break the single column on desktop with grids or side rails."
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+- generic:
+  - main:
+    - generic:
+      - heading [level=1]:
+        - generic: A little princess is turning
+        - generic:
+          - generic: O
+          - text: NE
+        - generic: derful
+      - generic:
+        - paragraph: Join us to celebrate
+        - paragraph: Amaris
+        - paragraph: Keziah D. Benedicto’s 1st Birthday
+        - paragraph: Sunday, Nov 22, 2026 · 6:00 PM
+        - paragraph: Jollibee Potrero, MacArthur Hwy, Malabon
+        - paragraph:
+          - generic: 17 days to go
+        - generic:
+          - generic:
+            - paragraph: RSVP opens soon
+        - paragraph:
+          - link:
+            - /url: https://www.google.com/maps/search/?api=1&query=Jollibee+Potrero+MacArthur+Highway+Malabon
+            - text: Directions
+          - link:
+            - /url: /amaris-1st-birthday.ics
+            - text: Add to calendar
+    - region:
+      - generic:
+        - heading [level=2]: The Portrait Hall
+        - paragraph: A year of royal moments, from the giggles to the tantrums. Tap a portrait to see it up close.
+      - list:
+        - listitem:
+          - button
+          - generic:
+            - paragraph: Pretty in Pink
+        - listitem:
+          - button
+          - generic:
+            - paragraph: The Royal Tantrum
+        - listitem:
+          - button
+          - generic:
+            - paragraph: Ready for the Ball
+        - listitem:
+          - button
+          - generic:
+            - paragraph: The Royal Giggle
+      - dialog "Pretty in Pink" [active] [ref=f4e145]:
+        - generic [ref=f4e146]:
+          - img "Amaris smiling in a ruffled pink gown in front of a golden castle backdrop" [ref=f4e148]
+          - paragraph [ref=f4e149]:
+            - text: Pretty in Pink
+            - generic [ref=f4e150]: 1 of 4
+          - generic [ref=f4e151]:
+            - button "Previous photo" [ref=f4e152]: Previous
+            - button "Next photo" [ref=f4e153]: Next
+            - button "Close" [ref=f4e154]
+    - region:
+      - generic:
+        - heading [level=2]: You’re invited to the ball
+        - generic:
+          - paragraph:
+            - generic: "17"
+            - generic: days until the ball
+          - generic:
+            - generic:
+              - generic:
+                - term: When
+                - definition: Sunday, November 22, 2026 6:00 PM
+            - generic:
+              - generic:
+                - term: Where
+                - definition: Jollibee Potrero MacArthur Highway, Malabon
+          - generic:
+            - link:
+              - /url: https://www.google.com/maps/search/?api=1&query=Jollibee+Potrero+MacArthur+Highway+Malabon
+              - text: Open in Maps
+            - link:
+              - /url: /amaris-1st-birthday.ics
+              - text: Add to calendar
+            - link:
+              - /url: https://calendar.google.com/calendar/render?action=TEMPLATE&text=Amaris%E2%80%99s%201st%20Birthday&dates=20261122T100000Z/20261122T130000Z&details=Amaris%20Keziah%20D.%20Benedicto%E2%80%99s%201st%20birthday.%20A%20little%20princess%20is%20turning%20ONE-derful!&location=Jollibee%20Potrero%2C%20MacArthur%20Highway%2C%20Malabon&ctz=Asia/Manila
+              - text: Google Calendar
+          - generic:
+            - generic:
+              - paragraph: RSVP opens soon
+              - paragraph: The RSVP form is on its way. Check back soon.
+        - paragraph: We would be delighted to celebrate this special day with you!
+        - paragraph: ONEderful
+  - alert

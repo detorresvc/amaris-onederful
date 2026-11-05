@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//amaris-onederful//Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:amaris-1st-birthday-20261122@amaris-onederful
+DTSTAMP:20261105T000000Z
+DTSTART:20261122T100000Z
+DTEND:20261122T130000Z
+SUMMARY:Amaris’s 1st Birthday
+DESCRIPTION:Amaris Keziah D. Benedicto’s 1st birthday. A little princess is turning ONE-derful!
+LOCATION:Jollibee Potrero\, MacArthur Highway\, Malabon
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Amaris’s 1st Birthday is tomorrow at 6:00 PM
+END:VALARM
+END:VEVENT
+END:VCALENDAR

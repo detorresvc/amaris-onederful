@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - heading "A little princess is turning ONE derful" [level=1] [ref=e32]:
+        - generic [ref=e33]: A little princess is turning
+        - generic [ref=e34]: ONE
+        - generic [ref=e35]: derful
+      - img "Amaris in a blue ball gown, hands clasped, laughing" [ref=e45]
+      - generic [ref=e46]:
+        - paragraph [ref=e47]: Join us to celebrate
+        - paragraph [ref=e48]: Amaris
+        - paragraph [ref=e49]: Keziah D. Benedicto’s 1st Birthday
+        - paragraph [ref=e50]: Sunday, Nov 22, 2026 · 6:00 PM
+        - paragraph [ref=e51]: Jollibee Potrero, MacArthur Highway, Malabon
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: RSVP opens soon
+          - paragraph [ref=e55]: The RSVP form is on its way. Please check back shortly.
+        - paragraph [ref=e56]:
+          - link "Directions" [ref=e57] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Jollibee+Potrero+MacArthur+Highway+Malabon
+          - link "Add to calendar" [ref=e58] [cursor=pointer]:
+            - /url: /amaris-1st-birthday.ics
+          - generic [ref=e59]: 17 days to go
+    - region [ref=e61]:
+      - generic [ref=e62]:
+        - heading "The Portrait Hall" [level=2] [ref=e66]
+        - paragraph [ref=e67]: A year of royal moments, from the giggles to the tantrums. Tap a portrait to see it up close.
+      - list [ref=e68]:
+        - listitem [ref=e69]:
+          - button "View “The Royal Giggle” full size" [ref=e70]:
+            - img "Amaris in a blue ball gown, hands clasped, laughing" [ref=e73]
+          - paragraph [ref=e77]: The Royal Giggle
+        - listitem [ref=e78]:
+          - button "View “The Royal Tantrum” full size" [ref=e79]:
+            - img "Amaris in a lilac tulle dress, eyes squeezed shut mid-cry" [ref=e82]
+          - paragraph [ref=e86]: The Royal Tantrum
+        - listitem [ref=e87]:
+          - button "View “Pretty in Pink” full size" [ref=e88]:
+            - img "Amaris smiling in a ruffled pink gown in front of a golden castle backdrop" [ref=e91]
+          - paragraph [ref=e93]: Pretty in Pink
+        - listitem [ref=e94]:
+          - button "View “Ready for the Ball” full size" [ref=e95]:
+            - img "Amaris on her tummy in a cloud of blue tulle, smiling up" [ref=e98]
+          - paragraph [ref=e100]: Ready for the Ball
+    - region [ref=e101]:
+      - generic [ref=e102]:
+        - heading "You’re invited to the ball" [level=2] [ref=e103]
+        - generic [ref=e104]:
+          - paragraph [ref=e105]:
+            - generic [ref=e106]: "17"
+            - generic [ref=e107]: days until the ball
+          - generic [ref=e111]:
+            - generic [ref=e116]:
+              - term [ref=e117]: When
+              - definition [ref=e118]: Sunday, November 22, 20266:00 PM
+            - generic [ref=e123]:
+              - term [ref=e124]: Where
+              - definition [ref=e125]: Jollibee PotreroMacArthur Highway, Malabon
+          - generic [ref=e126]:
+            - link "Open in Maps" [ref=e127] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=Jollibee+Potrero+MacArthur+Highway+Malabon
+            - generic [ref=e131]:
+              - link "Calendar" [ref=e132] [cursor=pointer]:
+                - /url: /amaris-1st-birthday.ics
+              - link "Google" [ref=e136] [cursor=pointer]:
+                - /url: https://calendar.google.com/calendar/render?action=TEMPLATE&text=Amaris%E2%80%99s%201st%20Birthday&dates=20261122T100000Z/20261122T130000Z&details=Amaris%20Keziah%20D.%20Benedicto%E2%80%99s%201st%20birthday.%20A%20little%20princess%20is%20turning%20ONE-derful!&location=Jollibee%20Potrero%2C%20MacArthur%20Highway%2C%20Malabon&ctz=Asia/Manila
+          - generic [ref=e138]:
+            - paragraph [ref=e139]: RSVP opens soon
+            - paragraph [ref=e140]: The RSVP form is on its way. Please check back shortly.
+        - paragraph [ref=e141]: We would be delighted to celebrate this special day with you!
+        - paragraph [ref=e142]: ONEderful
+  - alert [ref=e143]

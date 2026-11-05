@@ -1,0 +1,49 @@
+{
+  "title": "Shape the invitation page",
+  "question": "Three new layouts drawn from the Cinderella story, in your invitation's blue, gold and cream. Choose one for the phone.",
+  "options": [
+    {
+      "id": "ballroom-portrait",
+      "kind": "assigned",
+      "label": "The Palace Portrait Hall",
+      "kicker": "THE ROLL",
+      "lineage": "the palace ballroom, its chandelier and gilded royal portraits",
+      "thesis": "Arrive at the ball: under a chandelier hangs the princess's gilded portrait, and its brass plaque holds the party details and the RSVP.",
+      "palette": ["#fbf6ec", "#1f3b73", "#c9973f", "#a9c7ee", "#2f5fb3"],
+      "materials": ["gilded portrait frame", "crystal chandelier", "engraved brass plaque"],
+      "viewport": "Chandelier glow, ONE-derful, Amaris's portrait in a gold frame, and a plaque with date, time, venue and the RSVP button.",
+      "risk": "The frame must stay light and bright; heavy gilt on dark walls turns into a museum, not a first birthday.",
+      "html": ".impeccable/mocks/decision/ballroom-portrait.html",
+      "htmlFrame": "390x844"
+    },
+    {
+      "id": "carriage-window",
+      "kind": "dealt",
+      "label": "The Pumpkin Carriage",
+      "lineage": "the fairy godmother's pumpkin carriage on its way to the ball",
+      "thesis": "Ride to the ball: guests look out of the carriage's oval window at Amaris, and the details sit on the carriage door.",
+      "palette": ["#fbf6ec", "#2f5fb3", "#c9973f", "#e6eef9", "#1f3b73"],
+      "materials": ["oval gilt window", "tied-back blue velvet curtains", "carriage door crest"],
+      "viewport": "Velvet curtains frame an oval window with her photo; below, the carriage door carries the details, RSVP, directions and calendar.",
+      "risk": "The curtains and frame must not crowd the photo on a small phone.",
+      "html": ".impeccable/mocks/decision/carriage-window.html",
+      "htmlFrame": "390x844"
+    },
+    {
+      "id": "midnight-clock",
+      "kind": "dealt",
+      "label": "Before the Clock Strikes",
+      "lineage": "the palace clock that every Cinderella story turns on",
+      "thesis": "The countdown is the hero: a great palace clock counts down to 6:00 PM on November 22, with the glass slipper waiting below.",
+      "palette": ["#1f3b73", "#fbf6ec", "#c9973f", "#a9c7ee", "#2f5fb3"],
+      "materials": ["engraved clock face", "gold hands and numerals", "glass slipper"],
+      "viewport": "A large clock face reading 17 days to the ball, ONE-derful and Amaris above, the details and RSVP in the clock case below.",
+      "risk": "The countdown can upstage her photos; the photos need a strong second screen.",
+      "html": ".impeccable/mocks/decision/midnight-clock.html",
+      "htmlFrame": "390x844"
+    }
+  ],
+  "reroll": true,
+  "steer": true,
+  "buildPath": { "value": "code", "toggle": false }
+}

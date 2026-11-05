@@ -1,0 +1,62 @@
+- generic [active] [ref=f12e1]:
+  - main [ref=f12e2]:
+    - generic [ref=f12e7]:
+      - heading "A little princess is turning O NE derful" [level=1] [ref=f12e10]:
+        - generic [ref=f12e11]: A little princess is turning
+        - generic [ref=f12e12]:
+          - generic [ref=f12e13]: O
+          - text: NE
+        - generic [ref=f12e17]: derful
+      - img "Amaris in her blue princess gown and tiara, hands clasped, laughing" [ref=f12e21]
+    - region [ref=f12e34]:
+      - generic [ref=f12e39]:
+        - paragraph [ref=f12e40]: Join us to celebrate
+        - heading "Amaris" [level=2] [ref=f12e41]
+        - paragraph [ref=f12e42]: Keziah D. Benedicto’s
+        - paragraph [ref=f12e43]: 1st Birthday
+        - paragraph [ref=f12e47]: Sunday
+        - paragraph [ref=f12e48]: November 22, 2026
+        - paragraph [ref=f12e49]: 6:00 PM
+        - paragraph [ref=f12e50]: Jollibee Potrero
+        - paragraph [ref=f12e51]: MacArthur Highway, Malabon
+    - region [ref=f12e52]:
+      - generic [ref=f12e53]:
+        - heading "The Portrait Hall" [level=2] [ref=f12e56]
+        - paragraph [ref=f12e57]: A year of royal moments, from the giggles to the tantrums. Tap a portrait to see it up close.
+      - list [ref=f12e58]:
+        - listitem [ref=f12e59]:
+          - button "View “Pretty in Pink” full size" [ref=f12e60]:
+            - img "Amaris smiling in a ruffled pink gown in front of a golden castle backdrop" [ref=f12e63]
+          - paragraph [ref=f12e65]: Pretty in Pink
+        - listitem [ref=f12e66]:
+          - button "View “The Royal Tantrum” full size" [ref=f12e67]:
+            - img "Amaris in a lilac tulle dress, eyes squeezed shut mid-cry" [ref=f12e70]
+          - paragraph [ref=f12e72]: The Royal Tantrum
+        - listitem [ref=f12e73]:
+          - button "View “Ready for the Ball” full size" [ref=f12e74]:
+            - img "Amaris on her tummy in a cloud of blue tulle, smiling up" [ref=f12e77]
+          - paragraph [ref=f12e79]: Ready for the Ball
+        - listitem [ref=f12e80]:
+          - button "View “The Lilac Crown” full size" [ref=f12e81]:
+            - img "Amaris in lilac, both hands on the big tulle flower crown on her head" [ref=f12e84]
+          - paragraph [ref=f12e86]: The Lilac Crown
+        - listitem [ref=f12e87]:
+          - button "View “The Royal Giggle” full size" [ref=f12e88]:
+            - img "Amaris in a blue ball gown, hands clasped, laughing" [ref=f12e91]
+          - paragraph [ref=f12e93]: The Royal Giggle
+    - region [ref=f12e96]:
+      - generic [ref=f12e97]:
+        - heading "You’re invited to the ball" [level=2] [ref=f12e100]
+        - paragraph [ref=f12e104]:
+          - generic [ref=f12e105]: "17"
+          - generic [ref=f12e106]: days until the ball
+        - generic [ref=f12e107]:
+          - link "Open in Maps" [ref=f12e108] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Jollibee+Potrero+MacArthur+Highway+Malabon
+          - link "Apple / Outlook calendar" [ref=f12e112] [cursor=pointer]:
+            - /url: /amaris-1st-birthday.ics
+          - link "Google Calendar" [ref=f12e116] [cursor=pointer]:
+            - /url: https://calendar.google.com/calendar/render?action=TEMPLATE&text=Amaris%E2%80%99s%201st%20Birthday&dates=20261122T100000Z/20261122T130000Z&details=Amaris%20Keziah%20D.%20Benedicto%E2%80%99s%201st%20birthday.%20A%20little%20princess%20is%20turning%20ONE-derful!&location=Jollibee%20Potrero%2C%20MacArthur%20Highway%2C%20Malabon&ctz=Asia/Manila
+          - paragraph [ref=f12e121]: RSVP opens soon
+    - paragraph [ref=f12e133]: We would be delighted to celebrate this special day with you!
+  - alert [ref=f12e141]

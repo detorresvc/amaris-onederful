@@ -1,0 +1,27 @@
+{
+  "buildPath": "comp",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/midnight-clock.html"
+        ],
+        "createdAt": "2026-11-05T10:27:54.676Z",
+        "reason": "model: clock face is a circle whose SVG numerals sit 24px+ inside the rim; detector reads the full-bleed SVG box as flush"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/carriage-window.html"
+        ],
+        "createdAt": "2026-11-05T10:28:34.538Z",
+        "reason": "brief-pinned: cream ground comes from the user's supplied invitation (public/photos/invitation.jpg); unchosen decision sketch"
+      }
+    ]
+  }
+}

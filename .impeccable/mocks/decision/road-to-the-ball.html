@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Great+Vibes&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#fbf6ec;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-deep:#8a6220;--gold-text:#b07f2c;--sky:#a9c7ee;--mist:#e6eef9}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:linear-gradient(180deg,#d9e6f7 0%,var(--mist) 22%,var(--cream) 46%);font-family:"EB Garamond",serif;color:var(--navy);position:relative}
+.castle{position:absolute;top:0;left:0;width:390px;height:150px;opacity:.55}
+.path{position:absolute;inset:0;pointer-events:none}
+.head{position:relative;text-align:center;padding-top:26px}
+.kicker{font-family:Cinzel,serif;font-size:12px;letter-spacing:.22em;color:var(--navy)}
+.one{font-family:Cinzel,serif;font-weight:700;font-size:78px;line-height:.9;color:var(--gold-text);letter-spacing:.02em;text-shadow:0 1px 0 #f6e2b3,0 3px 6px rgba(168,122,42,.25)}
+.derful{font-family:"Great Vibes",cursive;font-size:54px;line-height:.7;color:var(--blue);margin-top:-6px}
+.arch{position:absolute;left:28px;top:232px;width:176px;height:236px;border-radius:88px 88px 10px 10px;overflow:hidden;border:3px solid var(--gold);box-shadow:0 0 0 6px var(--cream),0 0 0 7px rgba(201,151,63,.5),0 14px 30px rgba(31,59,115,.18)}
+.arch img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.name{position:absolute;right:20px;top:262px;width:162px;text-align:right}
+.name .script{font-family:"Great Vibes",cursive;font-size:50px;color:var(--blue);line-height:1}
+.name .full{font-size:17px;color:var(--gold-deep);margin-top:2px}
+.name .first{font-family:Cinzel,serif;font-size:13px;letter-spacing:.16em;margin-top:6px}
+.milestone{position:absolute;right:24px;top:392px;text-align:right;font-style:italic;font-size:16px;color:var(--navy)}
+.milestone b{font-family:Cinzel,serif;font-style:normal;font-size:28px;color:var(--gold-deep);display:block;line-height:1}
+.gate{position:absolute;left:16px;right:16px;top:520px;background:#fffdf8;border:1.5px solid var(--gold);border-radius:150px 150px 18px 18px;padding:46px 22px 20px;text-align:center;box-shadow:0 18px 40px rgba(31,59,115,.14)}
+.gate:before{content:"";position:absolute;inset:6px;border:1px solid rgba(201,151,63,.45);border-radius:144px 144px 13px 13px;pointer-events:none}
+.gate .lead{font-family:Cinzel,serif;font-size:12px;letter-spacing:.2em;color:var(--blue)}
+.facts{display:grid;grid-template-columns:1fr 1px 1fr;gap:12px;margin:12px 0 4px;align-items:center}
+.facts .rule{background:var(--gold);height:100%;opacity:.6}
+.facts .big{font-family:Cinzel,serif;font-size:22px;color:var(--navy)}
+.facts .sm{font-size:15px}
+.venue{font-size:17px;margin:8px 0 14px}
+.venue b{font-family:Cinzel,serif;font-weight:500;letter-spacing:.06em}
+.rsvp{display:block;background:var(--blue);color:#fff;font-family:Cinzel,serif;font-weight:700;letter-spacing:.14em;font-size:15px;padding:15px;border-radius:999px;text-decoration:none;box-shadow:inset 0 0 0 2px rgba(255,255,255,.25)}
+.mini{display:flex;justify-content:center;gap:18px;margin-top:12px;font-size:15px;color:var(--blue)}
+.mini span{border-bottom:1px solid var(--gold)}
+</style></head><body>
+<svg class="castle" viewBox="0 0 390 150" fill="none" stroke="#2f5fb3" stroke-width="1.2">
+  <path d="M300 150V70h10V40l8-18 8 18v30h8V55l6-14 6 14v15h10v80M260 150V95h8V72l6-14 6 14v23h8v55M340 150V100h8V82l5-12 5 12v18h8v50"/>
+  <path d="M30 150V110h8V92l5-12 5 12v18h8v40M60 150V118h6v-14l4-9 4 9v14h6v32"/>
+</svg>
+<svg class="path" viewBox="0 0 390 844">
+  <path d="M195 200 C 120 210, 40 220, 60 300 S 300 420, 230 470 S 140 500, 195 524" stroke="#c9973f" stroke-width="2.2" stroke-dasharray="2 7" stroke-linecap="round" fill="none"/>
+  <g transform="translate(222 462)" fill="#c9973f"><circle r="5"/></g>
+</svg>
+<header class="head">
+  <p class="kicker">A LITTLE PRINCESS IS TURNING</p>
+  <p class="one">ONE</p>
+  <p class="derful">derful</p>
+</header>
+<div class="arch"><img src="../../../public/photos/amaris-blue-gown.jpg" alt="Amaris in a blue gown, clapping and laughing"></div>
+<div class="name">
+  <p class="script">Amaris</p>
+  <p class="full">Keziah D. Benedicto’s</p>
+  <p class="first">1ST BIRTHDAY</p>
+</div>
+<p class="milestone"><b>17 days</b>down the road to the ball</p>
+<section class="gate">
+  <p class="lead">YOU’RE INVITED TO THE BALL</p>
+  <div class="facts">
+    <div><p class="sm">Sunday</p><p class="big">Nov 22</p></div><div class="rule"></div>
+    <div><p class="sm">at</p><p class="big">6:00 PM</p></div>
+  </div>
+  <p class="venue"><b>Jollibee Potrero</b><br>MacArthur Hwy, Malabon</p>
+  <a class="rsvp" href="#">RSVP</a>
+  <div class="mini"><span>Directions</span><span>Add to calendar</span></div>
+</section>
+</body></html>

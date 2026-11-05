@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Great+Vibes&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#fbf6ec;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-light:#e3bf73;--sky:#a9c7ee;--mist:#e6eef9}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:radial-gradient(120% 60% at 50% 25%,#2d5aa8 0%,var(--navy) 60%,#16295a 100%);font-family:"EB Garamond",serif;color:var(--cream);position:relative}
+.stars{position:absolute;inset:0;background-image:radial-gradient(1.5px 1.5px at 40px 60px,#fff,transparent),radial-gradient(1px 1px at 320px 90px,#fff,transparent),radial-gradient(1.5px 1.5px at 350px 220px,#e3bf73,transparent),radial-gradient(1px 1px at 30px 300px,#fff,transparent),radial-gradient(1.5px 1.5px at 210px 30px,#e3bf73,transparent)}
+.head{position:relative;text-align:center;padding-top:26px}
+.k{font-family:Cinzel,serif;font-size:12px;letter-spacing:.2em;color:#dce8f8}
+.one{font-family:Cinzel,serif;font-weight:700;font-size:56px;line-height:.9;color:var(--gold-light);display:inline}
+.derful{font-family:"Great Vibes",cursive;font-size:44px;color:#fff;display:inline;margin-left:4px}
+.clock{position:relative;margin:14px auto 0;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,var(--cream) 0 62%,#efe3c8 63% 64%,var(--cream) 65%);border:8px solid var(--gold);box-shadow:0 0 0 3px var(--navy),0 0 0 5px var(--gold-light),0 20px 50px rgba(0,0,0,.4)}
+.clock svg{position:absolute;inset:0}
+.photo{position:absolute;left:50%;top:50%;width:132px;height:132px;transform:translate(-50%,-62%);border-radius:50%;overflow:hidden;border:3px solid var(--gold)}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.count{position:absolute;left:0;right:0;top:196px;text-align:center;color:var(--navy)}
+.count b{font-family:Cinzel,serif;font-weight:700;font-size:26px;display:block;line-height:1}
+.count span{font-size:15px;font-style:italic}
+.case{position:relative;margin:-6px 26px 0;background:var(--cream);color:var(--navy);border:2px solid var(--gold);border-radius:6px 6px 16px 16px;padding:18px 18px 16px;text-align:center}
+.name{font-family:"Great Vibes",cursive;font-size:40px;line-height:1;color:var(--blue)}
+.full{font-size:16px;color:#8a6220}
+.when{margin-top:6px;font-family:Cinzel,serif;font-weight:700;font-size:15px;letter-spacing:.06em}
+.where{font-size:16px}
+.rsvp{display:block;margin-top:12px;background:var(--navy);color:#fff;font-family:Cinzel,serif;font-weight:700;letter-spacing:.14em;font-size:15px;padding:14px;border-radius:999px;text-decoration:none;box-shadow:0 0 0 2px var(--cream),0 0 0 3px var(--gold)}
+.mini{display:flex;justify-content:center;gap:18px;margin-top:10px;font-size:15px;color:var(--blue)}
+.mini span{border-bottom:1px solid var(--gold)}
+</style></head><body>
+<div class="stars"></div>
+<header class="head"><p class="k">A LITTLE PRINCESS IS TURNING</p><p><span class="one">ONE</span><span class="derful">derful</span></p></header>
+<div class="clock">
+  <svg viewBox="0 0 300 300" font-family="Cinzel,serif" font-size="20" font-weight="700" fill="#1f3b73" text-anchor="middle">
+    <text x="150" y="40">XII</text><text x="262" y="157">III</text><text x="150" y="276">VI</text><text x="38" y="157">IX</text>
+    <g stroke="#c9973f" stroke-width="2"><path d="M150 16v6M284 150h-6M150 284v-6M16 150h6"/></g>
+  </svg>
+  <div class="photo"><img src="../../../public/photos/amaris-blue-gown.jpg" alt="Amaris in a blue gown, clapping and laughing"></div>
+  <p class="count"><b>17 DAYS</b><span>until the ball begins</span></p>
+</div>
+<section class="case">
+  <p class="name">Amaris</p>
+  <p class="full">Keziah D. Benedicto’s 1st Birthday</p>
+  <p class="when">SUNDAY, NOV 22, 2026 · 6:00 PM</p>
+  <p class="where">Jollibee Potrero, MacArthur Hwy, Malabon</p>
+  <a class="rsvp" href="#">RSVP TO THE BALL</a>
+  <div class="mini"><span>Directions</span><span>Add to calendar</span></div>
+</section>
+</body></html>

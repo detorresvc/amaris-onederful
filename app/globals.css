@@ -1,0 +1,234 @@
+@import "tailwindcss";
+
+/* Palace palette, taken from the printed invitation. Light only: the
+   invitation is a cream-and-sky card, and that is what guests expect. */
+:root {
+  color-scheme: light;
+  --cream: #fbf6ec;
+  --ivory: #fffdf7;
+  --mist: #e6eef9;
+  --wall: #d4e2f5;
+  --sky: #a9c7ee;
+  --blue: #2f5fb3;
+  --navy: #1f3b73;
+  --gold: #c9973f;
+  --gold-light: #e9c97f;
+  --gold-text: #ad7f2c;
+  --brass: #f6ecd6;
+  --gold-deep: #8a6220;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-ivory: var(--ivory);
+  --color-mist: var(--mist);
+  --color-sky: var(--sky);
+  --color-blue: var(--blue);
+  --color-navy: var(--navy);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-text: var(--gold-text);
+  --color-brass: var(--brass);
+  --color-gold-deep: var(--gold-deep);
+  --font-caps: var(--font-cinzel);
+  --font-script: var(--font-great-vibes);
+  --font-serif: var(--font-eb-garamond);
+}
+
+html {
+  background: var(--wall);
+  scrollbar-color: var(--gold) var(--mist);
+}
+
+body {
+  color: var(--navy);
+  font-family: var(--font-eb-garamond), Georgia, serif;
+  background:
+    radial-gradient(70rem 34rem at 50% -6rem, #fff 0%, var(--mist) 45%, transparent 75%),
+    linear-gradient(180deg, var(--mist) 0%, var(--wall) 38rem, var(--cream) 70rem);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--sky);
+  color: var(--navy);
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Portrait buttons draw their focus ring on the frame's own outline (gilt-frame.tsx). */
+.frame-focus:focus-visible {
+  outline: none;
+}
+
+a {
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 1px;
+}
+
+/* Gilt frame: the carved moulding is SVG (gilt-frame.tsx); this layer only
+   carries the glint that crosses it once on first view. */
+.gilt {
+  isolation: isolate;
+}
+
+.gilt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 40%, rgb(255 252 240 / 0.7) 50%, transparent 60%) no-repeat;
+  background-size: 300% 100%;
+  background-position: 120% 0;
+  mix-blend-mode: soft-light;
+}
+
+.gilt[data-lit="true"]::after {
+  animation: glint 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+}
+
+@keyframes glint {
+  from {
+    background-position: 120% 0;
+  }
+  to {
+    background-position: -20% 0;
+  }
+}
+
+.crystal {
+  transform-box: fill-box;
+  transform-origin: 50% 0%;
+  animation: twinkle 4.8s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    fill: var(--sky);
+  }
+  45% {
+    fill: #f4f8ff;
+  }
+}
+
+.sparkle {
+  animation: sparkle 3.6s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Parallax layers, driven by --y / --p from components/parallax.tsx. */
+.plx {
+  translate: 0 calc(var(--y, 0) * var(--rate, 0) * 1px);
+  will-change: translate;
+}
+
+.plx-x {
+  translate: calc((var(--p, 0.5) - 0.5) * var(--rate, 0) * 1px) 0;
+  will-change: translate;
+}
+
+/* The main portrait drifts slower than its frame and eases in a touch. */
+.plx-photo {
+  translate: 0 calc(var(--y, 0) * var(--rate, 0) * 1px);
+  scale: calc(1 + var(--y, 0) * 0.00012);
+  will-change: translate, scale;
+}
+
+.flutter {
+  animation: flutter 6s ease-in-out infinite;
+  transform-origin: 50% 60%;
+}
+
+@keyframes flutter {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(-4deg);
+  }
+  50% {
+    transform: translate(-6px, -10px) rotate(3deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gilt[data-lit="true"]::after,
+  .crystal,
+  .sparkle,
+  .flutter {
+    animation: none;
+  }
+}
+
+/* Scroll reveals: each block rises into place as it enters the viewport.
+   Scroll-driven CSS only, so unsupported browsers simply show the page. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal,
+    .reveal-zoom,
+    .reveal-left,
+    .reveal-right {
+      animation-timing-function: linear;
+      animation-fill-mode: both;
+      animation-duration: auto;
+      animation-timeline: view();
+      animation-range: entry 5% cover 30%;
+    }
+    .reveal {
+      animation-name: reveal-up;
+    }
+    .reveal-zoom {
+      animation-name: reveal-zoom;
+    }
+    .reveal-left {
+      animation-name: reveal-left;
+    }
+    .reveal-right {
+      animation-name: reveal-right;
+    }
+  }
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    translate: 0 2.5rem;
+  }
+}
+
+@keyframes reveal-zoom {
+  from {
+    opacity: 0;
+    scale: 0.88;
+    rotate: -2deg;
+  }
+}
+
+@keyframes reveal-left {
+  from {
+    opacity: 0;
+    translate: -3rem 0;
+    rotate: -3deg;
+  }
+}
+
+@keyframes reveal-right {
+  from {
+    opacity: 0;
+    translate: 3rem 0;
+    rotate: 3deg;
+  }
+}

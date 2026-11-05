@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Great+Vibes&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#fbf6ec;--blue:#2f5fb3;--navy:#1f3b73;--gold:#c9973f;--gold-deep:#8a6220;--gold-text:#9a6e24;--sky:#a9c7ee;--mist:#e6eef9}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:390px;height:844px;overflow:hidden}
+body{background:radial-gradient(90% 40% at 50% 0%,#fff 0%,var(--mist) 45%,#d4e2f5 100%);font-family:"EB Garamond",serif;color:var(--navy);position:relative}
+.chandelier{position:absolute;left:50%;top:0;transform:translateX(-50%);width:200px;height:70px}
+.head{position:relative;text-align:center;padding-top:62px}
+.k{font-family:Cinzel,serif;font-size:12px;letter-spacing:.22em}
+.one{font-family:Cinzel,serif;font-weight:700;font-size:64px;line-height:.9;color:var(--gold-text)}
+.derful{font-family:"Great Vibes",cursive;font-size:46px;line-height:.7;color:var(--blue)}
+.frame{position:relative;margin:18px auto 0;width:236px;height:286px;padding:14px;background:linear-gradient(135deg,#e9c97f,#b8862f 40%,#f2dca0 60%,#a87a2a);border-radius:118px 118px 8px 8px;box-shadow:0 18px 36px rgba(31,59,115,.25)}
+.frame:before{content:"";position:absolute;inset:6px;border:1px solid rgba(255,248,225,.8);border-radius:112px 112px 5px 5px}
+.frame img{width:100%;height:100%;object-fit:cover;object-position:50% 16%;border-radius:104px 104px 2px 2px;display:block;border:2px solid #fff6dc}
+.crown{position:absolute;left:50%;top:-16px;transform:translateX(-50%);width:44px;height:26px}
+.plaque{position:relative;margin:-10px 18px 0;background:#fffdf7;border:1.5px solid var(--gold);border-radius:12px;padding:16px 18px 18px;text-align:center;box-shadow:0 12px 30px rgba(31,59,115,.15)}
+.plaque:before{content:"";position:absolute;inset:5px;border:1px solid rgba(201,151,63,.45);border-radius:8px;pointer-events:none}
+.name{font-family:"Great Vibes",cursive;font-size:40px;line-height:1;color:var(--blue)}
+.full{font-size:16px;color:var(--gold-deep)}
+.when{margin-top:8px;font-family:Cinzel,serif;font-weight:700;font-size:15px;letter-spacing:.06em}
+.where{font-size:16px;margin-top:2px}
+.rsvp{display:block;margin-top:12px;background:var(--navy);color:#fff;font-family:Cinzel,serif;font-weight:700;letter-spacing:.14em;font-size:15px;padding:14px;border-radius:999px;text-decoration:none;box-shadow:0 0 0 2px var(--cream),0 0 0 3px var(--gold)}
+.mini{display:flex;justify-content:center;gap:18px;margin-top:10px;font-size:15px;color:var(--blue)}
+.mini span{border-bottom:1px solid var(--gold)}
+</style></head><body>
+<svg class="chandelier" viewBox="0 0 200 70" fill="none" stroke="#c9973f" stroke-width="1.4">
+  <path d="M100 0v18M40 30q60 26 120 0M55 40q45 18 90 0"/>
+  <g fill="#a9c7ee" stroke="#2f5fb3" stroke-width=".8"><path d="M40 30l-4 10 4 8 4-8z"/><path d="M70 40l-4 10 4 8 4-8z"/><path d="M100 44l-4 12 4 9 4-9z"/><path d="M130 40l-4 10 4 8 4-8z"/><path d="M160 30l-4 10 4 8 4-8z"/></g>
+</svg>
+<header class="head"><p class="k">A LITTLE PRINCESS IS TURNING</p><p class="one">ONE</p><p class="derful">derful</p></header>
+<div class="frame">
+  <svg class="crown" viewBox="0 0 44 26" fill="#c9973f"><path d="M2 24l4-18 9 9 7-13 7 13 9-9 4 18z"/><circle cx="22" cy="17" r="3" fill="#2f5fb3"/></svg>
+  <img src="../../../public/photos/amaris-blue-gown.jpg" alt="Amaris in a blue gown, clapping and laughing">
+</div>
+<section class="plaque">
+  <p class="name">Amaris</p>
+  <p class="full">Keziah D. Benedicto’s 1st Birthday</p>
+  <p class="when">SUNDAY, NOV 22, 2026 · 6:00 PM</p>
+  <p class="where">Jollibee Potrero, MacArthur Hwy, Malabon</p>
+  <a class="rsvp" href="#">RSVP TO THE BALL</a>
+  <div class="mini"><span>Directions</span><span>Add to calendar</span><span>17 days to go</span></div>
+</section>
+</body></html>
