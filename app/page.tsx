@@ -7,6 +7,7 @@ import { Parallax } from "./components/parallax";
 import { rate } from "./components/rate";
 import { PortraitHall } from "./components/portrait-hall";
 import { RsvpButton } from "./components/rsvp-button";
+import { SectionStepper } from "./components/section-stepper";
 
 const ghostButton =
   "flex min-h-12 items-center justify-center gap-2 rounded-full border border-gold bg-ivory px-5 font-caps text-[0.85rem] font-bold tracking-[0.1em] text-navy transition-colors hover:border-blue hover:bg-white";
@@ -235,7 +236,7 @@ export default function Home() {
               <Icon name="calendar" className="size-5" /> Google Calendar
             </a>
             {/* No scroll reveal: the primary action must never look faded or disabled. */}
-            <div className="mt-3">
+            <div id="rsvp" className="mt-3">
               <RsvpButton />
             </div>
           </div>
@@ -261,6 +262,8 @@ export default function Home() {
           </div>
         </div>
       </Parallax>
+
+      <SectionStepper />
     </main>
   );
 }
