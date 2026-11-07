@@ -10,7 +10,8 @@ DTSTART:20261122T100000Z
 DTEND:20261122T130000Z
 SUMMARY:Amaris’s 1st Birthday
 DESCRIPTION:Amaris Keziah D. Benedicto’s 1st birthday. A little princess is turning ONE-derful!
-LOCATION:Jollibee Potrero\, MacArthur Highway\, Malabon
+LOCATION:Jollibee Pinagtipunan Circle Potrero\, MacArthur Highway\, Potrero\, Malabon
+GEO:14.6637299;120.983994
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

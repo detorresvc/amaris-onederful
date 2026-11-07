@@ -6,11 +6,10 @@ import { HeartJewel, HeartRule, Icon } from "./components/ornaments";
 import { Parallax } from "./components/parallax";
 import { rate } from "./components/rate";
 import { PortraitHall } from "./components/portrait-hall";
+import { ghostButton } from "./components/button-styles";
 import { RsvpButton } from "./components/rsvp-button";
 import { SectionStepper } from "./components/section-stepper";
 
-const ghostButton =
-  "flex min-h-12 items-center justify-center gap-2 rounded-full border border-gold bg-ivory px-5 font-caps text-[0.85rem] font-bold tracking-[0.1em] text-navy transition-colors hover:border-blue hover:bg-white";
 
 /** Decorative illustration: no alt text, never announced. */
 function Art({
@@ -225,18 +224,39 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-8 grid w-full max-w-[20rem] gap-3">
-            <a href={event.mapsUrl} target="_blank" rel="noopener noreferrer" className={`reveal ${ghostButton}`}>
-              <Icon name="pin" className="size-5" /> Open in Maps
+          {/* Where: the hosts' exact pin, with one-tap directions in either app. */}
+          <figure className="reveal mt-8 w-full max-w-[20rem]">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border-[1.5px] border-gold bg-ivory shadow-[0_0_0_3px_var(--cream),0_10px_20px_-8px_rgb(31_59_115/0.35)]">
+              <iframe
+                src={event.mapEmbedUrl}
+                title={`Map to ${event.venuePin.name}, ${event.venuePin.address}`}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="absolute inset-0 size-full border-0"
+              />
+            </div>
+            <figcaption className="mt-3 text-center text-navy">
+              <span className="block font-caps text-[0.85rem] font-bold tracking-[0.1em] text-balance">{event.venuePin.name}</span>
+              <span className="block text-base leading-snug">{event.venuePin.address}</span>
+            </figcaption>
+          </figure>
+
+          {/* One even stack: same pill, same 12px gap. No per-button scroll reveal,
+              which left each button at a different opacity mid-scroll. */}
+          <div className="mt-6 flex w-full max-w-[20rem] flex-col gap-3">
+            <a href={event.mapsUrl} target="_blank" rel="noopener noreferrer" className={ghostButton}>
+              <Icon name="pin" className="size-5 shrink-0" /> Open in Google Maps
             </a>
-            <a href={event.icsPath} download className={`reveal ${ghostButton}`}>
-              <Icon name="calendar" className="size-5" /> Apple / Outlook calendar
+            <a href={event.wazeUrl} target="_blank" rel="noopener noreferrer" className={ghostButton}>
+              <Icon name="navigate" className="size-5 shrink-0" /> Open in Waze
             </a>
-            <a href={googleCalendarUrl} target="_blank" rel="noopener noreferrer" className={`reveal ${ghostButton}`}>
-              <Icon name="calendar" className="size-5" /> Google Calendar
+            <a href={event.icsPath} download className={ghostButton}>
+              <Icon name="calendar" className="size-5 shrink-0" /> Apple / Outlook Calendar
             </a>
-            {/* No scroll reveal: the primary action must never look faded or disabled. */}
-            <div id="rsvp" className="mt-3">
+            <a href={googleCalendarUrl} target="_blank" rel="noopener noreferrer" className={ghostButton}>
+              <Icon name="calendar" className="size-5 shrink-0" /> Google Calendar
+            </a>
+            <div id="rsvp">
               <RsvpButton />
             </div>
           </div>
