@@ -16,9 +16,12 @@ export const event = {
   venueAreaShort: "MacArthur Hwy, Malabon",
   mapsUrl:
     "https://www.google.com/maps/search/?api=1&query=Jollibee+Potrero+MacArthur+Highway+Malabon",
-  // Paste the hosts' Google Form link here when it's ready. Until then the
-  // RSVP control shows a "not open yet" state instead of a dead link.
-  rsvpUrl: null as string | null,
+  // The hosts' published Google Form. Set to null to show the "not open yet"
+  // state instead of a dead link.
+  rsvpUrl:
+    "https://docs.google.com/forms/d/e/1FAIpQLSdTn-8op4TtIA-Pq0johAjuPrLq0J1aHRekxC0IAd1hqg7W4g/viewform" as
+      | string
+      | null,
   icsPath: "/amaris-1st-birthday.ics",
 };
 

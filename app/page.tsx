@@ -234,7 +234,8 @@ export default function Home() {
             <a href={googleCalendarUrl} target="_blank" rel="noopener noreferrer" className={`reveal ${ghostButton}`}>
               <Icon name="calendar" className="size-5" /> Google Calendar
             </a>
-            <div className="reveal mt-3">
+            {/* No scroll reveal: the primary action must never look faded or disabled. */}
+            <div className="mt-3">
               <RsvpButton />
             </div>
           </div>

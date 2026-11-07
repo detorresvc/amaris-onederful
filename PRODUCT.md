@@ -27,7 +27,8 @@ A personal, single-event site for one child's first birthday — not a generic i
 
 - Core functions: event details, RSVP via the hosts' Google Form, open-in-Maps, add-to-calendar, a countdown, and a photo gallery.
 - Confirmed event (from the printed invitation, `public/photos/invitation.jpg`): **Amaris Keziah D. Benedicto's 1st birthday**, **Sunday, November 22, 2026, 6:00 PM** (Philippine time), **Jollibee Potrero Malabon, MacArthur Highway**.
-- Open: the Google Form link, any RSVP deadline, and whether plus-ones or kids are invited. Until the link exists the RSVP control is shown as not yet open, never as a dead link.
+- RSVP form: https://docs.google.com/forms/d/e/1FAIpQLSdTn-8op4TtIA-Pq0johAjuPrLq0J1aHRekxC0IAd1hqg7W4g/viewform (asks attendance, guest name, and number of child and adult companions, so plus-ones and kids are welcome). Set in `app/event.ts`; if it is removed, the RSVP control shows as not yet open, never as a dead link.
+- Open: any RSVP deadline.
 
 ## Brand Commitments
 
