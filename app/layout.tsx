@@ -20,15 +20,46 @@ const ebGaramond = EB_Garamond({
   style: ["normal", "italic"],
 });
 
+// Link previews (Facebook, Messenger, Viber, X…) need absolute image URLs.
+// NEXT_PUBLIC_SITE_URL overrides; on Vercel the production domain is used.
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "https://amaris-onederful-ten.vercel.app");
+
+const shareTitle = "Amaris is turning ONE-derful";
+const shareDescription =
+  "Sunday, November 22, 2026 · 6:00 PM · Jollibee Potrero, Malabon. Tap to see the details and RSVP.";
+// 1200×630 crop of the printed invitation: the size link previews expect.
+const shareImage = {
+  url: "/photos/share-card.jpg",
+  width: 1200,
+  height: 630,
+  type: "image/jpeg",
+  alt: "Amaris in her blue princess gown beside the invitation to her 1st birthday, Sunday, November 22, 2026, 6:00 PM, Jollibee Potrero Malabon",
+};
+
 export const metadata: Metadata = {
-  title: "Amaris is turning ONE-derful",
+  metadataBase: new URL(siteUrl),
+  title: shareTitle,
   description:
     "Join us to celebrate Amaris Keziah D. Benedicto’s 1st birthday, Sunday, November 22, 2026, 6:00 PM at Jollibee Potrero, Malabon.",
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "Amaris is turning ONE-derful",
-    description:
-      "Sunday, November 22, 2026 · 6:00 PM · Jollibee Potrero, Malabon. Tap to see the details and RSVP.",
-    images: [{ url: "/photos/invitation.jpg", width: 1024, height: 1536 }],
+    type: "website",
+    url: "/",
+    siteName: "Amaris’s 1st Birthday",
+    locale: "en_PH",
+    title: shareTitle,
+    description: shareDescription,
+    images: [shareImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: shareTitle,
+    description: shareDescription,
+    images: [shareImage],
   },
 };
 
